@@ -3,34 +3,57 @@
 <head>
 	<meta charset="utf-8" lang="en-US">
 	<title>Home</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
+	<style>
+	.tang{
+		font-family: 'Tangerine', serif;
+		font-size:3rem;
+	}
+</style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm bg-success navbar-light fixed-top">
-		<ul class="navbar-nav nav-tabs">
-			<li class="navbar-brand mr-3 ">
-				<h3>Exam Helper </h3>
-			</li>
-			<li class="nav-item h5 mx-2 border-light">
-				<a href="/home.html" class="nav-link active" > Home</a>
+	<nav class="navbar navbar-expand-md bg-success navbar-light h5">
+	
+	<!-- Brand -->
+	<a href=# class="navbar-brand tang" >Exam Helper </a>
+	<!-- Toggle Button -->
+	
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+
+	<!-- Nav links -->
+		<div class="collapse navbar-collapse" id="mainNav">
+		<ul class="navbar-nav nav-pills">
+			<li class="nav-item">
+				<a href="home.html" class="nav-link" > Home</a>
 			</li>
 			<li class="nav-item">
-				<a href="study.html" class="nav-link h5 mx-2">Study Material</a>
+				<a href="study.html" class="nav-link">Study Material</a>
 			</li>
 			<li class="nav-item">
-				<a href="donate.html" class="nav-link h5 mx-2">Donate!</a>
+				<a href="donate.html" class="nav-link">Donate!</a>
 			</li>
 			<li class="nav-item">
-				<a href="about.html" class="nav-link h5 mx-2">About</a>
+				<a href="about.html" class="nav-link">About</a>
+			</li>
+
+			<li class="nav-item">
+				<button class="btn btn-primary " >
+					<a href="loginPage.html" class="
+					text-light text-decoration-none h5">Login</a>
+				</button>
 			</li>
 			
 		</ul>
+	</div>
 	</nav>
-<div class="container-fluid">
-</div>
+
+
 </body>
 </html>
