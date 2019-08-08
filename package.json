@@ -1,0 +1,23 @@
+{
+  "name": "exam_helper",
+  "version": "1.0.0",
+  "description": "A website to help students get information as quick as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riki432/Exam_Helper.git"
+  },
+  "keywords": [
+    "Exam",
+    "Helper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riki432/Exam_Helper/issues"
+  },
+  "homepage": "https://github.com/Riki432/Exam_Helper#readme"
+}
